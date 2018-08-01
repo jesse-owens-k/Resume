@@ -31,7 +31,7 @@
   	},
 	"sap.ui5": {
 		"rootView": {
-			"viewName": "sap.ui.demo.nav.view.App",
+			"viewName": "sap.ui.demo.nav.employee",
 			"type": "XML",
 			"async": true,
 			"id": "app"
