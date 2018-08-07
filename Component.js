@@ -1,13 +1,13 @@
-jQuery.sap.declare("sap.ui.demo.myFiori.Component");
+jQuery.sap.declare("sap.ui.demo.Resume.Component");
 
-sap.ui.core.UIComponent.extend("sap.ui.demo.myFiori.Component", {
+sap.ui.core.UIComponent.extend("sap.ui.demo.Resume.Component", {
 
 	createContent : function() {
 
 		// create root view
 		var oView = sap.ui.view({
 			id : "app",
-			viewName : "sap.ui.demo.myFiori.view.App",
+			viewName : "sap.ui.demo.Resume.view.App",
 			type : "JS",
 			viewData : { component : this }
 		});
