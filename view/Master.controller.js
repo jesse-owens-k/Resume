@@ -1,6 +1,6 @@
-jQuery.sap.require("sap.ui.demo.myFiori.util.Formatter");
+jQuery.sap.require("sap.ui.demo.Resume.util.Formatter");
 
-sap.ui.controller("sap.ui.demo.myFiori.view.Master", {
+sap.ui.controller("sap.ui.demo.Resume.view.Master", {
 
 	handleListItemPress : function (evt) {
 		var context = evt.getSource().getBindingContext();
