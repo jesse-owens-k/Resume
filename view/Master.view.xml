@@ -1,5 +1,5 @@
 <core:View
-	controllerName="sap.ui.demo.myFiori.view.Master"
+	controllerName="sap.ui.demo.Resume.view.Master"
 	xmlns="sap.m"
 	xmlns:core="sap.ui.core" >
 	<Page
@@ -30,11 +30,11 @@
 					<ObjectStatus
 						text="{
 							path: 'LifecycleStatus',
-							formatter: 'sap.ui.demo.myFiori.util.Formatter.statusText'
+							formatter: 'sap.ui.demo.Resume.util.Formatter.statusText'
 						}"
 						state="{
 							path: 'LifecycleStatus',
-							formatter: 'sap.ui.demo.myFiori.util.Formatter.statusState'
+							formatter: 'sap.ui.demo.Resume.util.Formatter.statusState'
 						}" />
 				</firstStatus>
 			</ObjectListItem>
