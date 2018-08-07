@@ -1,4 +1,4 @@
-jQuery.sap.declare("sap.ui.demo.myFiori.util.Formatter");
+jQuery.sap.declare("sap.ui.demo.Resume.util.Formatter");
 
 jQuery.sap.require("sap.ui.core.format.DateFormat");
 
@@ -15,7 +15,7 @@ sap.ui.demo.myFiori.util.Formatter = {
 	},
 	
 	statusState :  function (value) {
-		var map = sap.ui.demo.myFiori.util.Formatter._statusStateMap;
+		var map = sap.ui.demo.Resume.util.Formatter._statusStateMap;
 		return (value && map[value]) ? map[value] : "None";
 	},
 	
