@@ -1,5 +1,5 @@
 <core:View
-	controllerName="sap.ui.demo.myFiori.view.Detail"
+	controllerName="sap.ui.demo.Resume.view.Detail"
 	xmlns="sap.m"
 	xmlns:core="sap.ui.core" >
 	<Page
@@ -15,18 +15,18 @@
 				<ObjectAttribute text="{CreatedByBp}" />
 				<ObjectAttribute text="{
 					path: 'CreatedAt',
-					formatter: 'sap.ui.demo.myFiori.util.Formatter.date'
+					formatter: 'sap.ui.demo.Resume.util.Formatter.date'
 				}" />
 			</attributes>
 			<firstStatus>
 				<ObjectStatus
 					text="{
 						path: 'LifecycleStatus',
-						formatter: 'sap.ui.demo.myFiori.util.Formatter.statusText'
+						formatter: 'sap.ui.demo.Resume.util.Formatter.statusText'
 					}"
 					state="{
 						path: 'LifecycleStatus',
-						formatter: 'sap.ui.demo.myFiori.util.Formatter.statusState'
+						formatter: 'sap.ui.demo.Resume.util.Formatter.statusState'
 					}" />
 			</firstStatus>
 		</ObjectHeader>
